@@ -14,6 +14,17 @@
 		3A18F6112A017DFF00DD9C7D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6102A017DFF00DD9C7D /* MainViewController.swift */; };
 		3A18F6142A01871200DD9C7D /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6132A01871200DD9C7D /* MainPresenter.swift */; };
 		3A18F6172A02C0B200DD9C7D /* SceneBuildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6162A02C0B200DD9C7D /* SceneBuildManager.swift */; };
+		3A18F61A2A02C5EA00DD9C7D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6192A02C5EA00DD9C7D /* NetworkManager.swift */; };
+		3A18F61C2A02D0AC00DD9C7D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F61B2A02D0AC00DD9C7D /* APIManager.swift */; };
+		3A18F6212A02D29700DD9C7D /* ForecastResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6202A02D29700DD9C7D /* ForecastResponse.swift */; };
+		3A18F6232A02D3E300DD9C7D /* DecoderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6222A02D3E300DD9C7D /* DecoderManager.swift */; };
+		3A18F6252A0BFC6C00DD9C7D /* ForecastRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6242A0BFC6C00DD9C7D /* ForecastRequest.swift */; };
+		3A18F6282A0BFEC000DD9C7D /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6272A0BFEC000DD9C7D /* Encodable.swift */; };
+		3A18F62B2A0C049B00DD9C7D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F62A2A0C049B00DD9C7D /* Endpoint.swift */; };
+		3A18F62D2A0C04E800DD9C7D /* Scheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F62C2A0C04E800DD9C7D /* Scheme.swift */; };
+		3A18F62F2A0C053500DD9C7D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F62E2A0C053500DD9C7D /* Method.swift */; };
+		3A18F6312A0C057A00DD9C7D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6302A0C057A00DD9C7D /* APIEndpoint.swift */; };
+		3A18F6332A0D169A00DD9C7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6322A0D169900DD9C7D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,17 @@
 		3A18F6102A017DFF00DD9C7D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3A18F6132A01871200DD9C7D /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		3A18F6162A02C0B200DD9C7D /* SceneBuildManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuildManager.swift; sourceTree = "<group>"; };
+		3A18F6192A02C5EA00DD9C7D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3A18F61B2A02D0AC00DD9C7D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		3A18F6202A02D29700DD9C7D /* ForecastResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastResponse.swift; sourceTree = "<group>"; };
+		3A18F6222A02D3E300DD9C7D /* DecoderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoderManager.swift; sourceTree = "<group>"; };
+		3A18F6242A0BFC6C00DD9C7D /* ForecastRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastRequest.swift; sourceTree = "<group>"; };
+		3A18F6272A0BFEC000DD9C7D /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		3A18F62A2A0C049B00DD9C7D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		3A18F62C2A0C04E800DD9C7D /* Scheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scheme.swift; sourceTree = "<group>"; };
+		3A18F62E2A0C053500DD9C7D /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		3A18F6302A0C057A00DD9C7D /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		3A18F6322A0D169900DD9C7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,7 @@
 				3A18F6122A01816200DD9C7D /* Resources */,
 				3A18F5FC2A01797D00DD9C7D /* SceneDelegate.swift */,
 				3A18F5FA2A01797D00DD9C7D /* AppDelegate.swift */,
+				3A18F6322A0D169900DD9C7D /* Constants.swift */,
 				3A18F6082A01798000DD9C7D /* Info.plist */,
 			);
 			path = Application;
@@ -97,9 +120,59 @@
 		3A18F6152A02C08D00DD9C7D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3A18F6162A02C0B200DD9C7D /* SceneBuildManager.swift */,
+				3A18F6292A0C045200DD9C7D /* ServiseLayer */,
+				3A18F6262A0BFE9600DD9C7D /* Extensions */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		3A18F61D2A02D23300DD9C7D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3A18F61F2A02D26E00DD9C7D /* Request */,
+				3A18F61E2A02D24D00DD9C7D /* Response */,
+				3A18F61B2A02D0AC00DD9C7D /* APIManager.swift */,
+				3A18F6192A02C5EA00DD9C7D /* NetworkManager.swift */,
+				3A18F62A2A0C049B00DD9C7D /* Endpoint.swift */,
+				3A18F62C2A0C04E800DD9C7D /* Scheme.swift */,
+				3A18F62E2A0C053500DD9C7D /* Method.swift */,
+				3A18F6302A0C057A00DD9C7D /* APIEndpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3A18F61E2A02D24D00DD9C7D /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				3A18F6202A02D29700DD9C7D /* ForecastResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		3A18F61F2A02D26E00DD9C7D /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				3A18F6242A0BFC6C00DD9C7D /* ForecastRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		3A18F6262A0BFE9600DD9C7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A18F6272A0BFEC000DD9C7D /* Encodable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A18F6292A0C045200DD9C7D /* ServiseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3A18F61D2A02D23300DD9C7D /* Network */,
+				3A18F6222A02D3E300DD9C7D /* DecoderManager.swift */,
+				3A18F6162A02C0B200DD9C7D /* SceneBuildManager.swift */,
+			);
+			path = ServiseLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +245,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A18F6232A02D3E300DD9C7D /* DecoderManager.swift in Sources */,
+				3A18F61A2A02C5EA00DD9C7D /* NetworkManager.swift in Sources */,
 				3A18F6112A017DFF00DD9C7D /* MainViewController.swift in Sources */,
 				3A18F5FB2A01797D00DD9C7D /* AppDelegate.swift in Sources */,
+				3A18F6312A0C057A00DD9C7D /* APIEndpoint.swift in Sources */,
+				3A18F62D2A0C04E800DD9C7D /* Scheme.swift in Sources */,
 				3A18F5FD2A01797D00DD9C7D /* SceneDelegate.swift in Sources */,
+				3A18F6332A0D169A00DD9C7D /* Constants.swift in Sources */,
 				3A18F6172A02C0B200DD9C7D /* SceneBuildManager.swift in Sources */,
+				3A18F6252A0BFC6C00DD9C7D /* ForecastRequest.swift in Sources */,
 				3A18F6142A01871200DD9C7D /* MainPresenter.swift in Sources */,
+				3A18F61C2A02D0AC00DD9C7D /* APIManager.swift in Sources */,
+				3A18F6212A02D29700DD9C7D /* ForecastResponse.swift in Sources */,
+				3A18F62B2A0C049B00DD9C7D /* Endpoint.swift in Sources */,
+				3A18F62F2A0C053500DD9C7D /* Method.swift in Sources */,
+				3A18F6282A0BFEC000DD9C7D /* Encodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
