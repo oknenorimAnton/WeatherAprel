@@ -25,6 +25,7 @@
 		3A18F62F2A0C053500DD9C7D /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F62E2A0C053500DD9C7D /* Method.swift */; };
 		3A18F6312A0C057A00DD9C7D /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6302A0C057A00DD9C7D /* APIEndpoint.swift */; };
 		3A18F6332A0D169A00DD9C7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6322A0D169900DD9C7D /* Constants.swift */; };
+		3A18F6352A0D479000DD9C7D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A18F6342A0D478F00DD9C7D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		3A18F62E2A0C053500DD9C7D /* Method.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
 		3A18F6302A0C057A00DD9C7D /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
 		3A18F6322A0D169900DD9C7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A18F6342A0D478F00DD9C7D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				3A18F61D2A02D23300DD9C7D /* Network */,
 				3A18F6222A02D3E300DD9C7D /* DecoderManager.swift */,
 				3A18F6162A02C0B200DD9C7D /* SceneBuildManager.swift */,
+				3A18F6342A0D478F00DD9C7D /* LocationManager.swift */,
 			);
 			path = ServiseLayer;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A18F6232A02D3E300DD9C7D /* DecoderManager.swift in Sources */,
+				3A18F6352A0D479000DD9C7D /* LocationManager.swift in Sources */,
 				3A18F61A2A02C5EA00DD9C7D /* NetworkManager.swift in Sources */,
 				3A18F6112A017DFF00DD9C7D /* MainViewController.swift in Sources */,
 				3A18F5FB2A01797D00DD9C7D /* AppDelegate.swift in Sources */,

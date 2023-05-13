@@ -9,4 +9,6 @@ import Foundation
 
 enum Constants {
     static let apiKey = "2767d91f-a78b-45b2-8e2d-5ea57aaaa9ad"
+    static let defaultLatitude = 55.755786
+    static let defaultLongitude = 37.617633
 }

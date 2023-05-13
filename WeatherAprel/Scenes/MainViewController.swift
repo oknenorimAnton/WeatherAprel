@@ -11,16 +11,15 @@ protocol MainDisplayLogic: AnyObject {}
 
 final class MainViewController: UIViewController {
     var presenter: MainPresentationLogic?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        
         presenter?.viewDidLoad()
     }
 }
 
 extension MainViewController: MainDisplayLogic {
-    func update() {
-        print(#function)
-    }
 }
 
