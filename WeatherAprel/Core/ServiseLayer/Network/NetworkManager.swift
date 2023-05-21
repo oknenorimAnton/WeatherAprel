@@ -65,4 +65,3 @@ extension NetworkManager: Networkable {
         return urlRequest
     }
 }
-

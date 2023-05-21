@@ -10,4 +10,5 @@ import Foundation
 struct ForecastRequest: Encodable {
     let lat: Double
     let lon: Double
+    let limit: Int
 }
