@@ -24,7 +24,6 @@ class APIManager {
 }
 
 extension APIManager: APIManagable {
-    
     func fetchForecast(request: ForecastRequest) async throws -> ForecastResponse {
         let data = try await networkManager.request(.fetchForecast(request: request))
         let result: ForecastResponse = try decoderManager.decode(data: data)

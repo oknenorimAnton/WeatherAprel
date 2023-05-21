@@ -29,13 +29,13 @@ struct Locality: Decodable {
 
 struct ForecastFact: Decodable {
     let temp: Int
-    //let feelsLike: Int
+    let feelsLike: Int
     let icon: Icon
     let condition: String
     
     private enum CodingKeys: String, CodingKey {
         case temp, icon, condition
-        //case feelsLike = "feels_like"
+        case feelsLike = "feels_like"
     }
     
     enum Icon: String, Decodable {
@@ -44,6 +44,8 @@ struct ForecastFact: Decodable {
         case bknRaD = "bkn_-ra_d"
         case ovc = "ovc"
         case ovcRa = "ovc_-ra"
+        case skcD = "skc_d"
+        case skcN = "skc_n"
     }
 }
 
