@@ -10,7 +10,7 @@
 <h1>Technology stack: </h1>
    
   <ul> 
-    <li> Swift, Foundation, SVGKit, MVP </li> 
+    <li> Swift, UIKit, MVP, Swift Concurrency, URLSession, CLLocationManager, SVGKit </li> 
   </ul> 
      
   
